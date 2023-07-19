@@ -6,7 +6,7 @@ type Props = {};
 
 const NavBar = (props: Props) => {
   return (
-    <div className={styles.navbar}>
+    <nav className={styles.navbar}>
       <div className={`${styles.nav_menu}`}>
         <Link className={styles.nav_link} href={""}>
           Shop
@@ -57,7 +57,7 @@ const NavBar = (props: Props) => {
           </svg>
         </Link>
       </div>
-    </div>
+    </nav>
   );
 };
 

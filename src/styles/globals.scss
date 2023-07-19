@@ -2,12 +2,9 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-  --button-border-radius: 10px;
-  --primary-color: rgb(46, 44, 44);
-  --secondary-color: rgb(165, 154, 154);
-  --button-bg: white;
-  --button-fg: black;
+  
   --black:#121212;
+  --white:#fff;
 }
 
 @media (prefers-color-scheme: dark) {
