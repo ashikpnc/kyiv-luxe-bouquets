@@ -4,7 +4,7 @@ import Image from "next/image";
 import ImgHero from "../../public/images/img hero.png";
 import Link from "next/link";
 
-type Props = {};
+interface Props  {};
 
 const MainSection = (props: Props) => {
   return (
